@@ -1,4 +1,3 @@
-import { GraduationCap } from "lucide-react";
 import logo from '../../public/gtecphd.png'
 export const Navigation = () => {
   return (

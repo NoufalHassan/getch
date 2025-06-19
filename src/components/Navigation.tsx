@@ -6,7 +6,7 @@ export const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center group">
               <img src={logo} alt="GTec Logo" className="h-20 w-20 rounded-lg mr-2" />
-            <span className="ml-3 text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">GTec</span>
+         
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#home" className="text-gray-700 hover:text-blue-600 transition-all duration-300 font-medium relative group">

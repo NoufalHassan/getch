@@ -3,37 +3,42 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Award } from "lucide-react";
 import type { Publication } from "@/types/Types"; 
-
+import paperWriting from '../../public/paperwriting.jpeg'
+import sciJournal from '../../public/scijournal.jpeg'
+import assistance from '../../public/assistance.jpeg'
+import consult from '../../public/consult.jpeg'
+import publication from '../../public/publication.jpeg'
+import journal from '../../public/journal.jpeg'
 export const PublicationSection = () => {
   const publications: Publication[] = [
     {
       title: "Journal Paper Writing",
-      image: "https://images.unsplash.com/photo-1456324504439-367cee3b3c32?ixlib=rb-4.0.3",
+      image: paperWriting,
       description: "Professional writing services for high-impact journal articles with proper structure and academic rigor."
     },
     {
       title: "SCI Journal Publication", 
-      image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3",
+      image: sciJournal,
       description: "Specialized support for publishing in Science Citation Index journals with maximum visibility."
     },
     {
       title: "Scopus Paper Publication",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
+      image: assistance,
       description: "Expert guidance for Scopus-indexed publications ensuring quality and international recognition."
     },
     {
       title: "Annexure Publication",
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3",
+      image: consult,
       description: "Comprehensive support for supplementary publication materials and annexure documentation."
     },
     {
       title: "UGC CARE List",
-      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3",
+      image: publication,
       description: "Strategic publishing in UGC CARE listed journals for academic career advancement in India."
     },
     {
       title: "Web of Science",
-      image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3",
+      image: journal,
       description: "Publication support for Web of Science indexed journals with global research impact."
     }
   ];

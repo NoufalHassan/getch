@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 export const HeroSection = () => {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-0 bg-[url({})] bg-cover bg-center opacity-10"></div>
       
       {/* Animated background elements */}
       <div className="absolute inset-0">

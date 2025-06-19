@@ -10,73 +10,83 @@ import {
   CheckCircle
 } from "lucide-react";
 import type { Service } from "@/types/Types"; 
-
+import university from '../../public/university.jpg'
+import universityAdmission from '../../public/universityadmission.jpeg'
+import guidereferal from '../../public/guidereferal.jpeg'
+import topicSelection from '../../public/topicselection.jpeg'
+import consult from '../../public/consult.jpeg'
+import assistance from '../../public/assistance.jpeg'
+import help from '../../public/help.jpeg'
+import literature from '../../public/literature.jpeg'
+import research from '../../public/research.jpeg'
+import publication from '../../public/publication.jpeg'
+import journal from '../../public/journal.jpeg'
 export const ServicesSection = () => {
   const services: Service[] = [
     { 
       icon: Search, 
       title: "University Selection",
-      image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3",
+      image: university,
       description: "Expert guidance to help you choose the perfect university that aligns with your research goals and career aspirations."
     },
     { 
       icon: GraduationCap, 
       title: "University Admissions",
-      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3",
+      image: universityAdmission,
       description: "Comprehensive admission support including application preparation, interview coaching, and document review."
     },
     { 
       icon: Users, 
       title: "Guide Referral",
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3",
+      image: guidereferal,
       description: "Connect with experienced mentors and supervisors who match your research interests and academic background."
     },
     { 
       icon: BookOpen, 
       title: "Topic Selection",
-      image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3",
+      image: topicSelection,
       description: "Strategic assistance in identifying and refining research topics that are both innovative and feasible."
     },
     { 
       icon: FileText, 
       title: "Ph.D. Consultancy",
-      image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3",
+      image: consult,
       description: "End-to-end consulting services covering all aspects of your doctoral journey from start to graduation."
     },
     { 
       icon: Award, 
       title: "Ph.D. Assistance",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3",
+      image: assistance,
       description: "Personalized support for research methodology, data analysis, and academic writing throughout your program."
     },
     { 
       icon: CheckCircle, 
       title: "Ph.D. Help",
-      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3",
+      image: help,
       description: "Immediate help and troubleshooting for academic challenges, deadlines, and research roadblocks."
     },
     { 
       icon: BookOpen, 
       title: "Literature Review",
-      image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3",
+      image: literature,
       description: "Comprehensive literature review services to establish a strong theoretical foundation for your research."
     },
     { 
       icon: FileText, 
       title: "Research Proposal",
-      image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?ixlib=rb-4.0.3",
+      image: research,
       description: "Professional assistance in crafting compelling research proposals that meet academic standards."
     },
     { 
       icon: FileText, 
       title: "Research Paper Writing",
-      image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?ixlib=rb-4.0.3",
+      image: publication,
       description: "Expert writing support for high-quality research papers suitable for peer-reviewed publications."
     },
     { 
       icon: Award, 
       title: "Journal Publication",
-      image: "https://images.unsplash.com/photo-1532012197267-da84d127e765?ixlib=rb-4.0.3",
+      image: journal,
       description: "Strategic guidance for successful journal submissions and publication in high-impact academic journals."
     }
   ];

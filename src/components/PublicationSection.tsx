@@ -13,7 +13,7 @@ export const PublicationSection = () => {
   const publications: Publication[] = [
     {
       title: "Journal Paper Writing",
-      image: paperWriting,
+      image: paperWriting ,
       description: "Professional writing services for high-impact journal articles with proper structure and academic rigor."
     },
     {
@@ -54,6 +54,7 @@ export const PublicationSection = () => {
             <Card key={index} className="group hover:shadow-2xl transition-all duration-500 bg-white/80 backdrop-blur-sm border-0 shadow-lg overflow-hidden transform hover:-translate-y-3 hover:scale-105">
               <div className="aspect-video relative overflow-hidden">
                 <img 
+                loading="lazy"
                   src={publication.image} 
                   alt={publication.title}
                   className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"

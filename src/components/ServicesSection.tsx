@@ -102,6 +102,7 @@ export const ServicesSection = () => {
             <Card key={index} className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg bg-gradient-to-br from-white to-blue-50/30 overflow-hidden transform hover:-translate-y-2 hover:scale-105">
               <div className="aspect-video relative overflow-hidden">
                 <img 
+                loading="lazy"
                   src={service.image} 
                   alt={service.title}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

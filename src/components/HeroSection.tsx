@@ -24,12 +24,13 @@ export const HeroSection = () => {
             research support, and publication expertise
           </p>
           <div className="flex flex-col sm:flex-row gap-6 justify-center">
-            <Button size="lg" className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-10 py-6 text-lg font-semibold rounded-full shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-105">
-              Get Started
-            </Button>
-            <Button size="lg" variant="outline" className="border-2 border-white/20 text-white hover:bg-white/10 backdrop-blur-sm px-10 py-6 text-lg font-semibold rounded-full transition-all duration-300 transform hover:scale-105">
+            <a
+              href="#services"
+              className="inline-flex items-center justify-center px-5 py-3 text-lg font-semibold rounded-full border-2 border-white/20 text-white hover:bg-white/10 backdrop-blur-sm transition-all duration-300 transform hover:scale-105"
+            >
               Our Services
-            </Button>
+            </a>
+
           </div>
         </div>
       </div>

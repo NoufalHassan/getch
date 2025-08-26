@@ -1,7 +1,7 @@
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Star } from "lucide-react";
-import type { Testimonial } from "@/types/Types"; // ✅ type-only import
+import type { Testimonial } from "@/types/Types"; 
 
 export const TestimonialsSection = () => {
   const testimonials: Testimonial[] = [
